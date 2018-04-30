@@ -1,6 +1,5 @@
-SRC = LCPRHRI.md
-
-TARGET = LCPRHRI.pdf
+TARGET = LCPRHRI.pdf \
+         AEBA.pdf
 
 %.pdf: %.md
 	pandoc $< -o $@ -V documentclass=ltjarticle --pdf-engine=lualatex
