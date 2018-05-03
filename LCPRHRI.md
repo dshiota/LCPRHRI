@@ -1,3 +1,14 @@
+---
+title: "放射性同位元素等による放射線障害の防止に関する法律"
+author: [""]
+date: \today
+subject: ""
+tags: []
+titlepage: true
+titlepage-color: "3C9453"
+titlepage-text-color: "FFFFFF"
+...
+
 # 放射性同位元素等による放射線障害の防止に関する法律
 
 ## 第一章 総則（第一条・第二条）
