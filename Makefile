@@ -2,7 +2,7 @@ TARGET = LCPRHRI.pdf \
          AEBA.pdf
 
 %.pdf: %.md
-	pandoc $< -o $@ -V documentclass=ltjarticle --pdf-engine=lualatex
+	pandoc $< -o $@ --listings --toc -V documentclass=ltjbook -V lang=en-US --pdf-engine=lualatex -V CJKmainfont=IPAexGothic --template eisvogel.tex
 
 .PHONY: all clean
 
