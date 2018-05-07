@@ -7,9 +7,8 @@ tags: []
 titlepage: true
 titlepage-color: "3C9453"
 titlepage-text-color: "FFFFFF"
+toc-own-page: true
 ...
-
-\clearpage
 
 # 原子力基本法
 
